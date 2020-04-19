@@ -44,3 +44,8 @@ URL只能输入一条，格式为`www.baidu.com`，必须加上www。
 
 #### 线程与延时与端口最大值
 线程默认为10，延时为0，扫描的端口最大值默认为100，端口最大值直接修改即可，线程与延时需通过设置进行确定。
+
+## 注意：
+如果程序无法运行，大概率为使用者未正确安装和配置Java环境，请参考`https://jingyan.baidu.com/article/f96699bb163475894e3c1be4.html`进行配置，[JDK安装包百度云版](https://pan.baidu.com/s/1amern3pbdX-ZEWlRLTL2_Q)，提取码为`x9fw`
+
+或者java版本过低，如何检验，如果在cmd下输入`java -version` 和 `javac -version`，均正常，但是还是无法运行程序，就代表java版本过低。
