@@ -3,6 +3,8 @@ import java.awt.*;
 
 public class portScan {
     // 设置组件
+    static JLabel port_jl_num = new JLabel("端口最大值");
+    static TextField port_port_num = new TextField();
     static Checkbox port_ck_1w = new Checkbox("1w");
     static Checkbox port_ck_10w = new Checkbox("10w");
     static JLabel port_jl_ip = new JLabel("导入host或IP");
@@ -47,9 +49,14 @@ public class portScan {
         Main.jp_port.add(port_jl_time);
         port_choice_time.setBounds(370,65,60,30);
         Main.jp_port.add(port_choice_time);
-        port_jb_set.setBounds(370,100,60,20);
+        port_jl_num.setBounds(300,100,70,20);
+        port_port_num.setText("100");
+        Main.jp_port.add(port_jl_num);
+        port_port_num.setBounds(370,100,80,20);
+        Main.jp_port.add(port_port_num);
+        port_jb_set.setBounds(370,140,60,20);
         Main.jp_port.add(port_jb_set);
-        port_jb_start.setBounds(300,100,60,20);
+        port_jb_start.setBounds(300,140,60,20);
         Main.jp_port.add(port_jb_start);
         port_jl_port.setBounds(300,170,40,20);
         Main.jp_port.add(port_jl_port);
